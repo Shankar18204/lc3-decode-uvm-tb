@@ -2,7 +2,7 @@
 
 A Universal Verification Methodology (UVM) testbench for the Decode block of an LC-3 microprocessor. This project demonstrates industry-standard transaction-level verification using SystemVerilog.
 
-## Architecture Highlights
+## Highlights
 * Utilizes a Bus Functional Model (BFM) architecture,  separating static hardware toggling from dynamic UVM protocol classes.
 * Implements `uvm_analysis_port` broadcasting to isolate the monitor's observation path from the driver's stimulus path.
 * Uses `uvm_config_db` to pass virtual interfaces and configuration objects from the top-level module to the UVM environment.
