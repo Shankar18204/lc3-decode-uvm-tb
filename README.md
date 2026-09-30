@@ -9,9 +9,9 @@ A Universal Verification Methodology (UVM) testbench for the Decode block of an 
 
 ## Directory Structure
 * `project_bench/decode/sim/`: Makefiles and `wave.do`.
-* `project_bench/decode/tb/testbench/`: Top-level modules (`hdl_top.sv` and `hvl_top.sv`).
-* `project_bench/decode/tb/test/`: UVM test configurations and the base test suite (`decode_test_pkg`).
-* `verification_ip/interface_packages/decode_in_pkg/`: Reusable UVM Agent VIP containing the Monitor, Driver, Sequencer, Coverage, and Transactions.
+* `project_bench/decode/tb/testbench/`: Top-level modules.
+* `project_bench/decode/tb/test/`: UVM test configurations
+* `verification_ip/interface_packages/decode_in_pkg/`: UVM Agent VIP.
 
 ## Tools Used
 * **Language:** SystemVerilog, UVM 1.2
