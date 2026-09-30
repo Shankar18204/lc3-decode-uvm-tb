@@ -19,6 +19,5 @@ A Universal Verification Methodology (UVM) testbench for the Decode block of an 
 
 ## Execution
 
-To compile and run the simulation in the QuestaSim GUI, navigate to the `sim/` directory and execute:
 ```bash
 make p1_debug
